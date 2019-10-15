@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+body{
+  margin:0px;
+  padding:0px;
+  background-color:#eee;
+}
+header{
+  background:dodgerblue;
+  height:auto;
+  font-family:'Mansalva', cursive;
+  font-size:30px;
+  font-weight:50px;
+  letter-spacing:10px;
+  border-bottom:2px solid red;
+  
+}
+#header{
+  display:flex;
+  padding:10px;
+  width:100%;
+  margin:auto;
+}
+#logo{
+  margin-left:50%;
+}
+main{
+  text-align:center;
+  margin-top:20px;
+ 
+}
+#myimg{
+ border:2px solid red;
+  
+}
+.btn{
+  border:none;
+  padding:5px 30px;
+  background-color:pink;
+  font-family:'Mansalva', cursive;
+  font-size:30px;
+  font-weight:20px;
+  box-shadow:10px 10px 10px #ccc;
+  position:relative;
+  outline:none;
+  
+}
+.btn:hover{
+  cursor:pointer;
+  font-size:33px;
+  
+}
+.btn:active{
+  top:5px;
+  box-shadow:8px 8px 10px #ccc;
+  transition:2s ease;
+}
+#fname{
+  font-size:50px;
+  font-family:'Mansalva', cursive;
+}
+#lname{
+  font-size:20px;
+  font-family:'Mansalva', cursive;
+}
+#title{
+  font-size:20px;
+  font-family:'Mansalva', cursive;
+}
+#gender{
+  font-size:20px;
+  font-family:'Mansalva', cursive;
+}
+#city{
+  font-size:20px;
+  font-family:'Mansalva', cursive;
+}
