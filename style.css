@@ -2,16 +2,17 @@
 body{
   margin:0px;
   padding:0px;
-  background-color:#eee;
+  background-color:#e6e6e6;
 }
 header{
-  background:dodgerblue;
+  background:#ff0040;
   height:auto;
   font-family:'Mansalva', cursive;
   font-size:30px;
   font-weight:50px;
   letter-spacing:10px;
-  border-bottom:2px solid red;
+  border-bottom:2px solid black;
+  color:#1a0000;
   
 }
 #header{
@@ -29,19 +30,22 @@ main{
  
 }
 #myimg{
- border:2px solid red;
+ border:2px solid #262626;
+  box-shadow:10px 10px 10px #808080;
   
 }
 .btn{
   border:none;
+  border-radius:5px;
   padding:5px 30px;
-  background-color:pink;
+  background-color:#ff0040;
   font-family:'Mansalva', cursive;
   font-size:30px;
   font-weight:20px;
-  box-shadow:10px 10px 10px #ccc;
+  box-shadow:10px 10px 10px #4d4d4d;
   position:relative;
   outline:none;
+  text-transform:uppercase;
   
 }
 .btn:hover{
@@ -71,6 +75,10 @@ main{
   font-family:'Mansalva', cursive;
 }
 #city{
+  font-size:20px;
+  font-family:'Mansalva', cursive;
+}
+#state{
   font-size:20px;
   font-family:'Mansalva', cursive;
 }
