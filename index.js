@@ -16,7 +16,7 @@ object.onreadystatechange=function(){
     lname.innerHTML=x.results[0].name.last;
     title.innerHTML=x.results[0].name.title;
     gender.innerHTML=x.results[0].gender;
-    city.innerHTML="city-"+x.results[0].location.city;
+    city.innerHTML=" city-"+x.results[0].location.city;
     state.innerHTML="("+x.results[0].location.state+")";
     img.src=url;
     
