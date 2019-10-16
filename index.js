@@ -9,13 +9,15 @@ object.onreadystatechange=function(){
       var gender=document.getElementById("gender");
     var lname=document.getElementById("lname");
     var city=document.getElementById("city");
+     var state=document.getElementById("state");
     var x=JSON.parse(this.responseText);
     var url=x.results[0].picture.large;
      fname.innerHTML=x.results[0].name.first;
     lname.innerHTML=x.results[0].name.last;
     title.innerHTML=x.results[0].name.title;
     gender.innerHTML=x.results[0].gender;
-    city.innerHTML=x.results[0].location.city;
+    city.innerHTML="city-"+x.results[0].location.city;
+    state.innerHTML="("+x.results[0].location.state+")";
     img.src=url;
     
     
