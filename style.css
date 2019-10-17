@@ -6,6 +6,7 @@ body{
 }
 header{
   background:#ff0040;
+  margin:0px;
   height:auto;
   font-family:'Mansalva', cursive;
   font-size:30px;
